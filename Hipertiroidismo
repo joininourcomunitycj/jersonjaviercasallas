@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Hipertiroidismo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #333;
+        }
+        .title {
+            font-size: 3em;
+            color: #1e90ff;
+        }
+        .content {
+            font-size: 1.5em;
+            max-width: 80%;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .nav {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .nav a {
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+            background-color: #4682b4;
+        }
+        img {
+            max-width: 60%;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide" id="slide1">
+    <div class="title">Hipertiroidismo</div>
+    <div class="content">Introducción al trastorno del hipertiroidismo y su impacto en el cuerpo.</div>
+    <img src="https://www.example.com/hipertiroidismo_intro.jpg" alt="Glándula tiroides">
+    <div class="nav">
+        <a href="#slide2">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide2">
+    <div class="title">¿Qué es el Hipertiroidismo?</div>
+    <div class="content">El hipertiroidismo es una condición en la que la glándula tiroides produce más hormonas de las necesarias.</div>
+    <img src="https://www.example.com/que_es_hipertiroidismo.jpg" alt="Ilustración de la tiroides">
+    <div class="nav">
+        <a href="#slide1">Anterior</a>
+        <a href="#slide3">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide3">
+    <div class="title">Causas del Hipertiroidismo</div>
+    <div class="content">Las principales causas son la enfermedad de Graves, nódulos tiroideos y el exceso de yodo en la dieta.</div>
+    <img src="https://www.example.com/causas_hipertiroidismo.jpg" alt="Causas del hipertiroidismo">
+    <div class="nav">
+        <a href="#slide2">Anterior</a>
+        <a href="#slide4">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide4">
+    <div class="title">Síntomas</div>
+    <div class="content">Los síntomas comunes incluyen pérdida de peso, taquicardia, irritabilidad, y aumento de la sudoración.</div>
+    <img src="https://www.example.com/sintomas_hipertiroidismo.jpg" alt="Síntomas del hipertiroidismo">
+    <div class="nav">
+        <a href="#slide3">Anterior</a>
+        <a href="#slide5">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide5">
+    <div class="title">Diagnóstico</div>
+    <div class="content">El diagnóstico se realiza a través de análisis de sangre que miden los niveles de TSH, T3 y T4.</div>
+    <img src="https://www.example.com/diagnostico_hipertiroidismo.jpg" alt="Diagnóstico del hipertiroidismo">
+    <div class="nav">
+        <a href="#slide4">Anterior</a>
+        <a href="#slide6">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide6">
+    <div class="title">Tratamientos</div>
+    <div class="content">Los tratamientos incluyen medicamentos antitiroideos, yodo radiactivo o cirugía para extirpar la tiroides.</div>
+    <img src="https://www.example.com/tratamiento_hipertiroidismo.jpg" alt="Tratamiento del hipertiroidismo">
+    <div class="nav">
+        <a href="#slide5">Anterior</a>
+        <a href="#slide7">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide7">
+    <div class="title">Complicaciones</div>
+    <div class="content">Si no se trata, el hipertiroidismo puede causar problemas cardíacos, osteoporosis y crisis tiroidea.</div>
+    <img src="https://www.example.com/complicaciones_hipertiroidismo.jpg" alt="Complicaciones del hipertiroidismo">
+    <div class="nav">
+        <a href="#slide6">Anterior</a>
+        <a href="#slide8">Siguiente</a>
+    </div>
+</div>
+
+<div class="slide" id="slide8">
+    <div class="title">Conclusión</div>
+    <div class="content">El hipertiroidismo es un trastorno serio, pero con el diagnóstico y tratamiento adecuados, se puede controlar eficazmente.</div>
+    <img src="https://www.example.com/conclusion_hipertiroidismo.jpg" alt="Conclusión">
+    <div class="nav">
+        <a href="#slide7">Anterior</a>
+    </div>
+</div>
+
+</body>
+</html>
